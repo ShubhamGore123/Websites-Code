@@ -1,0 +1,174 @@
+        * {
+
+
+            font-family: Arial;
+            border: border-box;
+
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .border {
+            border: 5px solid transparent;
+            border-radius: 4%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            border: 5px solid white;
+            font-weight: 1.5rem;
+            font-size: 1.2rem;
+
+        }
+
+
+        body {
+            background-color: rgb(43, 43, 55);
+            color: white;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(20 17 37);
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 30px;
+            size: 5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(133, 133, 222);
+            font-size: 1.2rem;
+        }
+        nav ul li a span:hover{
+            font-size: 5rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+
+        }
+
+        .firstsection>div {
+            width: 26%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+
+            color: white
+        }
+
+        .rightsection img {
+
+            color: white;
+            width: 130%;
+        }
+
+        .parpal {
+            color: rgb(117, 5, 223);
+        }
+
+        #element {
+            color: rgb(117, 5, 223);
+        }
+
+        .footer {
+            margin-top: 15px;
+        }
+
+        .foot-panel1 {
+            background-color: #37475a;
+            color: white;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .foot-panel2 {
+            background-color: 20 17 3;
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        ul {
+            margin-top: 20px;
+
+        }
+
+        a {
+            color: rgb(219, 233, 234);
+            text-decoration: none;
+            font-size: 2rem;
+            
+        }
+        a:hover {
+            color: #452b81;
+        }
+        
+
+        ul a {
+            display: block;
+            font-size: 1.3rem;
+            margin-top: 10px;
+            color: #dddddd;
+            text-wrap: center;
+        }
+
+        ul a:hover {
+            color: #452b81;
+        }
+
+
+        .foot-panel4 {
+            background-color: #0f1111;
+            color: white;
+            height: 90px;
+
+        }
+
+        .pages {
+            font-size: 1.4rem;
+            text-align: center;
+            padding-top: 25px;
+        }
+
+
+        .copyright {
+            padding-top: 10px;
+            font-size: 1rem;
+            text-align: center;
+        }
+     /*login page */
+     
